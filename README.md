@@ -1,3 +1,35 @@
+# Starting development tasks for storefront sight
+Create a visually appealing site using Material UI
+Use a Redux Store to manage the state of categories and items in the store
+Display a list of categories from state
+When the user selects (clicks on) a category …
+Identify that category as selected (change of class/display)
+Show a list of products associated with the category
+
+
+![UML](uml/WhiteBoard.png)
+This storeFront has been created following lectures of codefellows as well as following Udemy courses. This is a link to the source video and content. 
+[Source](https://www.udemy.com/course/mern-ecommerce/learn/lecture/22515124#overview)
+
+
+I have implemented a server running on a localhost:5000, through .env. 
+I have imported mongoose and mongodb for storing user information, product information, shipping and payment. From the server you are able to run nodemon (after installing) and then on a new tab in the terminal, you can npm start to run the front end. The backend includes express, dotenv and mongoose. 
+
+## Run Application
+
+- install all dependencies. terminal at root run: npm i
+- create a .env file containing: 
+MONGO_URI = Your mongoDB Database
+PORT = 5000
+
+- Open terminal # 1 at root level run: node backend/server (this is to start server).
+- Open terminal # 2 at root level run: npm start (this is to start frontend).
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
